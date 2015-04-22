@@ -1,0 +1,111 @@
+
+/* 
+    Created on : Mar 18, 2015, 9:46:45 AM
+    Author     : Horton
+*/
+
+* 
+{
+    font-size: 12pt;  /* sets the font size for all elements. */
+    
+    /* look up reset style sheet */
+}
+
+header 
+{
+    width : 90%;
+}
+footer 
+{
+    background-color: black;
+    color:white;
+    height: 100px;
+    width: 90%;
+}
+nav 
+{ width : 90%}
+
+
+
+nav ol li{
+    width: 16.6667%; 
+}
+body 
+{
+
+    width: 90%;
+    margin: 0 auto;
+}
+article {
+    margin: auto;
+    width: 90%;
+}
+h1 
+{
+
+    font-family: "sansserif";
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    color: #330000;
+    
+}
+h2 
+{
+    font-family: "sansserif";
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #330000;
+}
+figure.centeredImage 
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+figure.thirds
+{   
+    //width : 20%;
+    float: left;
+    padding:0em;
+    margin: 0em 0em 0em 0em;
+
+}
+img.maxImage
+{
+    max-width: 100%;
+    max-height: auto;
+    
+
+}
+.thumbnail {
+    float: left;
+    width:auto;
+    height:90px;
+    margin: .5px;
+    
+}
+.thumbnail:hover {
+    position: relative;
+//    top: -25px;
+//    left: -35px;
+    width: 500px;
+    height: auto;
+    display:block;
+    z-index: 999;
+    
+}
+
+a {
+    display: inline;
+    width: 60px;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
